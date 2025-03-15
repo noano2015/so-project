@@ -1,0 +1,5 @@
+# This test verifies that deleting keys that don't exist creates an error
+DELETE [c1,c2]
+WRITE [(Escritor1,EcaDeQueiroz)]
+DELETE [Escritor1,Escritor1]
+DELETE [Escritor1]

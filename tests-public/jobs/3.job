@@ -1,0 +1,7 @@
+# This test verifies multiple deleted key-values in the same command
+# as well as multiple writes in the same command
+WRITE [(a,anna)(b,bernardo)]
+WRITE [(d,dinis)(c,carlota)]
+DELETE [a,b,d]
+# this should write only carlota
+SHOW

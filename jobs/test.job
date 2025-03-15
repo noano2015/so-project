@@ -1,0 +1,9 @@
+READ [c1]
+WRITE [(c1,v1)(chave2,valor-exemplo)]
+READ [chave2]
+WRITE [(chave2,valor-exemplo2)(umaChave,umValor)]
+BACKUP
+DELETE [c1,chaveAleatoria]
+WAIT 1000
+SHOW
+HELP

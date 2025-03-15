@@ -1,0 +1,4 @@
+# Test with writes with an invalid format
+WRITE [.my.key,my_value]
+WRITE [ola,ola]
+SHOW

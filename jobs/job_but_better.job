@@ -1,0 +1,9 @@
+WRITE [(p,a)(b,c)(i,l)(e,r)]
+WRITE [(q,a)(atroz,c)(i,tacão)(bla,r)]
+BACKUP
+BACKUP
+SHOW
+HELP
+WAIT 1000
+HELP
+SHOW

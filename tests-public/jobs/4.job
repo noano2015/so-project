@@ -1,0 +1,5 @@
+# This test verifies that overwrites are being properly handled
+WRITE [(b,beatriz)(b,bernardo)(b,bruno)(b,benicio)(b,berenice)]
+WRITE [(b,beatriz)(b,bernardo)(b,bruno)(b,benicio)(b,berenice)]
+# berenice should override the previous ones
+SHOW
